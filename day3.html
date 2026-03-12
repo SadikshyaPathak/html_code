@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>day3</title>
+  </head>
+  <body>
+    <ul>
+      FRUITS(unordered)
+      <li>apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+    </ul>
+    <ol>
+      VEGETABLES(ordered)
+      <li>beans</li>
+      <li>spinach</li>
+      <li>sweet Potato</li>
+    </ol>
+    <table border="1">
+      <caption>
+        Table
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="3">Student Table</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Rollno</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <td>sadikshya</td>
+        <td>manigram</td>
+        <td>21</td>
+      </tbody>
+    </table>
+    <!--get used for names ,address(shows the entered data in url)-->
+    <!--post is used for pw ,secret things(it doesnot shows the entered text in url)-->
+    <form action="form.html" method="post">
+      username: <input type="text" name="username" />
+      password: <input type="password" name="pass" />
+      <input type="submit" value="submit" />
+    </form>
+
+    <!--use radio for any option box-->
+    <form action="">
+        Gender: <input type="radio" >male <input type="radio" >female
+    </form>
+<!--to make it select only one option use name attribute with same name/value -->
+<form action="">
+        Gender: <input type="radio" name="gender">male <input type="radio" name="gender" >female
+    </form>
+  </body>
+</html>
