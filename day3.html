@@ -38,21 +38,34 @@
         <td>21</td>
       </tbody>
     </table>
-    <!--get used for names ,address(shows the entered data in url)-->
-    <!--post is used for pw ,secret things(it doesnot shows the entered text in url)-->
     <form action="form.html" method="post">
-      username: <input type="text" name="username" />
-      password: <input type="password" name="pass" />
-      <input type="submit" value="submit" />
-    </form>
+      <!--get used for names ,address(shows the entered data in url)-->
+      <!--post is used for pw ,secret things(it doesnot shows the entered text in url)-->
+      username:
+      <input
+        type="text"
+        name="username"
+        placeholder="enter your username"
+        autocomplete="off"
+      />
+      password:
+      <input
+        type="password"
+        name="pass"
+        placeholder="enter your passsword"
+        autocomplete="off"
+      />
 
-    <!--use radio for any option box-->
-    <form action="">
-        Gender: <input type="radio" >male <input type="radio" >female
-    </form>
-<!--to make it select only one option use name attribute with same name/value -->
-<form action="">
-        Gender: <input type="radio" name="gender">male <input type="radio" name="gender" >female
+      <input type="submit" value="submit" />
+
+      <!--use radio for any option box-->
+
+      Gender: <input type="radio" />male <input type="radio" />female
+
+      <!--to make it select only one option use name attribute with same name/value -->
+
+      Gender: <input type="radio" name="gender" />male
+      <input type="radio" name="gender" />female
     </form>
   </body>
 </html>
