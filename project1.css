@@ -1,0 +1,30 @@
+*{
+    font-family: arial;
+}
+h2{
+    text-decoration: underline;
+}
+
+ .contact{
+    border:1px black;
+    
+   
+ }
+/* display :inline;
+takes required space only
+
+margin :space outside the element (between elements).
+
+Padding → space inside the element (between content and border).
+ 
+display:inline-block(to enable padding margin)
+removes default properties
+
+
+
+position:relative;
+top:10px;
+(paila ko aafno position (top) bata 10 px tala)
+
+
+*/
