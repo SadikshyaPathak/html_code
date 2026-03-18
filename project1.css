@@ -1,15 +1,39 @@
 *{
     font-family: arial;
 }
+
+main{
+    border-radius: 1px ;
+    border-color: black;
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
 h2{
     text-decoration: underline;
 }
-
- .contact{
-    border:1px black;
+header{
+    margin-left: 40%;
+    /* padding-left: 10px; */
     
-   
- }
+}
+.left{
+    width:30%;
+    margin-left: 50px;
+
+}
+.right{
+    border-radius:2px black;
+    width:60%;
+    margin-left:100px;
+    padding-right: 9%;
+
+    /* margin-bottom: 100px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
 /* display :inline;
 takes required space only
 
