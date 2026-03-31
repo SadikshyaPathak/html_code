@@ -1,0 +1,12 @@
+   .container{
+            border:2px solid black;
+            
+            padding:1px,10px,500px,700px;
+            /* padding:20px; */
+            margin:50px;
+            border-radius: 100px;
+            width:100px;
+            height:100px;
+            box-sizing: border-box;
+            
+        }

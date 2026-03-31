@@ -1,38 +1,114 @@
-*{
-    font-family: arial;
+* {
+  font-family: arial;
 }
 
-main{
-    border-radius: 1px ;
-    border-color: black;
+main {
+  /* border: 2px  solid blue; */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  /* margin-left:10%;
+    margin-right:10%; */
+  width: 80%;
+  margin: auto;
+  /* justify-content: center; */
+}
+
+header {
+  margin-left: 33%;
+  font-size: 20px;
+  font-weight: 250px;
+  color:rgb(70, 71, 71);
+  
+
+  /* padding-left: 10px; */
+}
+.left {
+  width: 30%;
+  margin-left: 150px;
+  /* border:2px solid black; */
+  word-wrap: break-word;
+  margin-top: 15px;
+  /* padding-left:7%; */
+
+  & h2 {
+    border-bottom: 2px solid;
+    padding: 3px;
+    width: 70%;
+  }
+
+}
+hr{
+        border-left: 3px solid;
+
+}
+.right {
+  /* border:2px solid black; */
+  width: 60%;
+  margin-right: 19%;
+  margin-top: 15px;
+  /* margin-left: 10px;  */
+  /* padding-right:10%; */
+
+  & h2 {
+    border-bottom: 2px solid;
+    padding: 3px;
+    /* width: 0%; */
+  }
+  h4{
+    color:rgb(77, 79, 78);
+  }
+}
+h4 {
+  text-align: center;
+}
+.iee{
+  
+}
+/* width: 10%; */
+
+.contact_info {
+  /* border:1px solid black; */
+  padding-bottom: 90px;
+
+  font-size: 13px;
+  /* border-top: 2px solid; */
+}
+/* .contact-heading {
+  border-bottom: 2px solid;
+  padding: 3px;
+  width: 70%;
+} */
+.education {
+  /* border:1px solid black; */
+  padding-bottom: 80px;
+}
+/* main{
+    border:1px solid red;
+    
+    
+
+    /* width:80% */
+
+/* main{
+    position: relative;    🔥 REQUIRED 
     display:flex;
     flex-direction: row;
     gap:50px;
-}
-h2{
-    text-decoration: underline;
-}
-header{
-    margin-left: 40%;
-    /* padding-left: 10px; */
-    
-}
-.left{
-    width:30%;
-    margin-left: 50px;
-
-}
-.right{
-    border-radius:2px black;
-    width:60%;
-    margin-left:100px;
-    padding-right: 9%;
-
-    /* margin-bottom: 100px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
+    border:1px solid red;
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+} */
+/* main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30%;              same as .left width 
+    border-left: 2px dotted gray;
+} 
+*/
 
 /* display :inline;
 takes required space only
