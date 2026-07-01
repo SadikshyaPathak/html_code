@@ -1,72 +1,80 @@
 * {
   font-family: arial;
+  /* background-color: aqua; */
 }
-
+body {
+  background-color: rgb(208, 207, 207);
+}
+.all_content {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
 main {
-  /* border: 2px  solid blue; */
   display: flex;
   flex-direction: row;
   gap: 40px;
-  /* margin-left:10%;
-    margin-right:10%; */
+
   width: 80%;
   margin: auto;
   /* justify-content: center; */
 }
 
 header {
-  margin-left: 33%;
-  font-size: 20px;
-  font-weight: 250px;
-  color:rgb(70, 71, 71);
-  
+  background-color: white;
+  padding-top: 7%;
+  margin-left: 26%;
+  font-size: 25px;
+  color: rgb(70, 71, 71);
 
   /* padding-left: 10px; */
 }
 .left {
   width: 30%;
-  margin-left: 150px;
+  margin-left: 15px;
   /* border:2px solid black; */
   word-wrap: break-word;
   margin-top: 15px;
+  background-color: white;
   /* padding-left:7%; */
-
-  & h2 {
-    border-bottom: 2px solid;
-    padding: 3px;
-    width: 70%;
-  }
-
 }
-hr{
-        border-left: 3px solid;
-
+.left p {
+  display: flex;
+  gap: 3px;
+}
+.left h2 {
+  border-bottom: 2px solid;
+  padding: 3px;
+  width: 70%;
+}
+hr {
+  border-left: 3px solid;
 }
 .right {
   /* border:2px solid black; */
   width: 60%;
-  margin-right: 19%;
+  /* margin-right: 10%; */
   margin-top: 15px;
-  /* margin-left: 10px;  */
-  /* padding-right:10%; */
-
-  & h2 {
-    border-bottom: 2px solid;
-    padding: 3px;
-    /* width: 0%; */
-  }
-  h4{
-    color:rgb(77, 79, 78);
-  }
+  background-color: white;
 }
+
+.right h4 {
+  color: rgb(77, 79, 78);
+}
+
+.right h2 {
+  border-bottom: 2px solid;
+  padding: 3px;
+  /* width: 0%; */
+}
+
 h4 {
   text-align: center;
 }
-.iee{
-  
-}
-/* width: 10%; */
 
+.ieee {
+  padding-right: 260px;
+}
 .contact_info {
   /* border:1px solid black; */
   padding-bottom: 90px;
@@ -74,41 +82,14 @@ h4 {
   font-size: 13px;
   /* border-top: 2px solid; */
 }
-/* .contact-heading {
-  border-bottom: 2px solid;
-  padding: 3px;
-  width: 70%;
-} */
+
 .education {
   /* border:1px solid black; */
   padding-bottom: 80px;
 }
-/* main{
-    border:1px solid red;
-    
-    
-
-    /* width:80% */
-
-/* main{
-    position: relative;    🔥 REQUIRED 
-    display:flex;
-    flex-direction: row;
-    gap:50px;
-    border:1px solid red;
-    margin-left:10%;
-    margin-right:10%;
-    width:80%;
-} */
-/* main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 30%;              same as .left width 
-    border-left: 2px dotted gray;
-} 
-*/
+ul {
+  line-height: 26px;
+}
 
 /* display :inline;
 takes required space only
@@ -128,3 +109,5 @@ top:10px;
 
 
 */
+
+

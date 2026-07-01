@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:aliceblue;
+}
+.CV_container {
+  width: 90%;
+  max-width: 1000px;
+
+  margin: 30px auto;
+  background-color: rgba(215, 219, 222, 0.868);
+}
+main,
+header,
+footer {
+  padding: 20px;
+}
+
+.introduction {
+  background-color: rgb(16, 16, 158);
+  color: white;
+    text-align: center;
+    word-break: break-word;
+
+   padding:20px; 
+}
+
+.contact-options {
+  background-color: rgb(195, 220, 244);
+  width: 90%;
+  color: black;
+   display: flex;
+    justify-content: center;
+
+
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  word-break: break-word;
+}
+.career-objective {
+  h2 {
+    border-bottom: 2px solid;
+  }
+}
+.education {
+  h2 {
+    border-bottom: 2px solid;
+  }
+}
+.skills {
+  h2 {
+    border-bottom: 2px solid;
+  }
+}
+.projects {
+  h2 {
+    border-bottom: 2px solid;
+  }
+}
+.languages {
+  h2 {
+    border-bottom: 2px solid;
+  }
+}
+h2 {
+  color: rgb(16, 16, 158);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  li,
+  span {
+    font-size: 14px;
+  }
+  .contact-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-options span {
+    margin: 5px 0;
+  }
+  main,
+  header,
+  footer {
+   padding:20px;
+  box-sizing: border-box;
+
+  }
+}
