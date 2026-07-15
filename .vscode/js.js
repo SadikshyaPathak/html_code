@@ -26,7 +26,7 @@ let y=6;
 let z=x+y;
 document.write(z);
 
-/*let -  block scope and cannot be redeclared in same scope   introduced by Es6 (2015)
+/*let -  block scope and cannot be redeclared in same scope but can be reassigned  introduced by Es6 (2015)
  var - functional, global scope  variable and can be redeclared */
 
  function myFunction(){
@@ -46,10 +46,30 @@ document.write(z);
 
   function studentInfo(){
     let studentClass = "first sem";
-    document.write("class:" + studentClass  );
+    document.write("class:" + studentClass );
 
-    studentClass= "second sem";
+    studentClass= "second sem"; //reassigned let variable
     document.write("class:" + studentClass  );
 
   }
   studentInfo();
+
+  const names=["sadikshya","anishma","suprina"];
+  names[0]="pathak";//can change and add element
+  names.push("sadikshya")
+  document.write(names);
+  console.log(names);
+
+const student={name: "sadikshya",section: "A"};
+student.section="B";
+
+//js comparision operator (returns in true or false)
+
+let s=5;
+let result=x>8;
+document.write("<br>" + result)
+
+let a="a";
+let b = "b";
+let r=a<b;
+document.write("<br>" + r)
