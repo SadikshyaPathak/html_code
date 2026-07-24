@@ -72,4 +72,4 @@ document.write("<br>" + result)
 let a="a";
 let b = "b";
 let r=a<b;
-document.write("<br>" + r)
+document.write("<br>" + r);
